@@ -1,16 +1,14 @@
 # chapter_3_advanced_flutter
 
-A new Flutter project.
+## 3.1 connectivity_plus package
 
-## Getting Started
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/bd275972-1e71-43bf-8713-0de0abb4489c" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/d684cdd0-eb02-4eb9-bc2e-62abf5268bc1" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/5e7485e5-c7c8-4c08-8ef9-0630d6d40794" width = 32%></div>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
