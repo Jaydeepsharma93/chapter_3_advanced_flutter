@@ -17,4 +17,17 @@ Purpose :
 Benefits :
    * Improved User Experience: You can display informative messages, disable features, or adjust content based on network availability (e.g., display cached content offline).
    * Simplified Development: Provides a platform-agnostic way to check network connectivity, saving you from writing separate code for Android and iOS.
+```dart
+import 'package:connectivity_plus/connectivity_plus.dart';
 
+final List<ConnectivityResult> connectivityResult = await Connectivity().checkConnectivity();
+
+// This condition is for demo purposes only to explain every connection type.
+if (connectivityResult.contains(ConnectivityResult.wifi)) {
+  print("Device is connected to WiFi.");
+} else if (connectivityResult.contains(ConnectivityResult.mobile)) {
+  print("Device is connected to cellular data.");
+} else {
+  print("No active network connection.");
+}
+```
