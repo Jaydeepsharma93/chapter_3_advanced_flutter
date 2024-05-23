@@ -15,8 +15,6 @@ Purpose :
    * Enables you to adapt your app's behavior based on the available network type.
 
 Benefits :
-    * Improved User Experience: You can display informative messages, disable features, or adjust content based on network availability (e.g., display cached content offline).
-    * Simplified Development: Provides a platform-agnostic way to check network connectivity, saving you from writing separate code for Android and iOS.
-
-
+   * Improved User Experience: You can display informative messages, disable features, or adjust content based on network availability (e.g., display cached content offline).
+   * Simplified Development: Provides a platform-agnostic way to check network connectivity, saving you from writing separate code for Android and iOS.
 
