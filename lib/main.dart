@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/chrome',
       routes: {
-        '/': (context) => const ConnectivityCheck(),
+        // '/': (context) => const ConnectivityCheck(),
         '/chrome' : (context) => const ChromeView()
       },
     );
