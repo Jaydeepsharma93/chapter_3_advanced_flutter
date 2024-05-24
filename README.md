@@ -31,3 +31,8 @@ if (connectivityResult.contains(ConnectivityResult.wifi)) {
   print("No active network connection.");
 }
 ```
+
+## 3.2 Chrome : flutter_inappwebview Package
+
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/dabed125-e5ed-4e5d-9cad-6c317eb49227" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/861f54c7-c24a-45bd-b4d5-3c4037d354a6" width = 32%>
