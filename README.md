@@ -1,16 +1,33 @@
 # chapter_3_advanced_flutter
 
-A new Flutter project.
+## 3.1 connectivity_plus package
 
-## Getting Started
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/bd275972-1e71-43bf-8713-0de0abb4489c" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/d684cdd0-eb02-4eb9-bc2e-62abf5268bc1" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_3_advanced_flutter/assets/143181361/5e7485e5-c7c8-4c08-8ef9-0630d6d40794" width = 32%></div>
 
-This project is a starting point for a Flutter application.
+## connectivity_plus package :-
 
-A few resources to get you started if this is your first Flutter project:
+The connectivity_plus package in Flutter is a plugin that provides functionality to detect the type of network connection (WiFi, cellular data, etc.) currently available on the device.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Purpose :
+   * Helps your Flutter app understand the network environment (WiFi, mobile data, or no connection).
+   * Enables you to adapt your app's behavior based on the available network type.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Benefits :
+   * Improved User Experience: You can display informative messages, disable features, or adjust content based on network availability (e.g., display cached content offline).
+   * Simplified Development: Provides a platform-agnostic way to check network connectivity, saving you from writing separate code for Android and iOS.
+```dart
+import 'package:connectivity_plus/connectivity_plus.dart';
+
+final List<ConnectivityResult> connectivityResult = await Connectivity().checkConnectivity();
+
+// This condition is for demo purposes only to explain every connection type.
+if (connectivityResult.contains(ConnectivityResult.wifi)) {
+  print("Device is connected to WiFi.");
+} else if (connectivityResult.contains(ConnectivityResult.mobile)) {
+  print("Device is connected to cellular data.");
+} else {
+  print("No active network connection.");
+}
+```
